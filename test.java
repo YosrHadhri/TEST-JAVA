@@ -14,7 +14,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class test {
-/****************** method that converts a string type that can a have multiple forms, to a date type with a unique form yyyy-MM-dd *****************/ 
+/****************** method that converts a string type that can have a multiple forms, to a date type with a unique form yyyy-MM-dd *****************/ 
 	public static LocalDate parseDate(String strDate) throws Exception
 	{
 	        SimpleDateFormat[] formats =
